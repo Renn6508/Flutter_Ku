@@ -42,112 +42,19 @@ class MyHomePage extends StatelessWidget {
               Container(
                 margin: EdgeInsets.all(10),
                 decoration: BoxDecoration(
+                  image: DecorationImage(
+                    image: AssetImage('assets/download (23).jpeg'),
+                    fit: BoxFit.fill,
+                  ),
                   border: Border.all(),
                   borderRadius: BorderRadius.circular(10),
                   color: const Color.fromRGBO(39, 83, 202, 1),
                 ),
-                width: 100,
-                height: 100,
+                width: 500,
+                height: 500,
                 child: Center(child: Text('kotak 1'),),
               ),
-              Container(
-                margin: EdgeInsets.all(10),
-                decoration: BoxDecoration(
-                  border: Border.all(),
-                  borderRadius: BorderRadius.circular(10),
-                  color: const Color.fromRGBO(39, 83, 202, 1),
-                ),
-                width: 100,
-                height: 100,
-                child: Center(child: Text('kotak 2'),),
-              ),
-              Container(
-                margin: EdgeInsets.all(10),
-                decoration: BoxDecoration(
-                  border: Border.all(),
-                  borderRadius: BorderRadius.circular(10),
-                  color: const Color.fromRGBO(39, 83, 202, 1),
-                ),
-                width: 100,
-                height: 100,
-                child: Center(child: Text('kotak 3'),),
-              ),
-            ],
-          ),
-          Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Container(
-                margin: EdgeInsets.all(10),
-                decoration: BoxDecoration(
-                  border: Border.all(),
-                  borderRadius: BorderRadius.circular(10),
-                  color: const Color.fromRGBO(39, 83, 202, 1),
-                ),
-                width: 100,
-                height: 100,
-                child: Center(child: Text('kotak 4'),),
-              ),
-              Container(
-                margin: EdgeInsets.all(10),
-                decoration: BoxDecoration(
-                  border: Border.all(),
-                  borderRadius: BorderRadius.circular(10),
-                  color: const Color.fromRGBO(39, 83, 202, 1),
-                ),
-                width: 100,
-                height: 100,
-                child: Center(child: Text('kotak 5'),),
-              ),
-              Container(
-                margin: EdgeInsets.all(10),
-                decoration: BoxDecoration(
-                  border: Border.all(),
-                  borderRadius: BorderRadius.circular(10),
-                  color: const Color.fromRGBO(39, 83, 202, 1),
-                ),
-                width: 100,
-                height: 100,
-                child: Center(child: Text('kotak 6'),),
-              ),
-            ],
-          ),
-          Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Container(
-                margin: EdgeInsets.all(10),
-                decoration: BoxDecoration(
-                  border: Border.all(),
-                  borderRadius: BorderRadius.circular(10),
-                  color: const Color.fromRGBO(39, 83, 202, 1),
-                ),
-                width: 100,
-                height: 100,
-                child: Center(child: Text('kotak 7'),),
-              ),
-              Container(
-                margin: EdgeInsets.all(10),
-                decoration: BoxDecoration(
-                  border: Border.all(),
-                  borderRadius: BorderRadius.circular(10),
-                  color: const Color.fromRGBO(39, 83, 202, 1),
-                ),
-                width: 100,
-                height: 100,
-                child: Center(child: Text('kotak 8'),),
-              ),
-              Container(
-                margin: EdgeInsets.all(10),
-                decoration: BoxDecoration(
-                  border: Border.all(),
-                  borderRadius: BorderRadius.circular(10),
-                  color: const Color.fromRGBO(39, 83, 202, 1),
-                ),
-                width: 100,
-                height: 100,
-                child: Center(child: Text('kotak 9'),),
-              ),
+
             ],
           ),
         ],
